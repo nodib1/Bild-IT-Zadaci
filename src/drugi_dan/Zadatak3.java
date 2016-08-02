@@ -7,7 +7,7 @@ public class Zadatak3 {
 
 	public static void main(String[] args) throws Exception{
 		//Kreira se fajl objekta, a koristimo datoteku "novi.txt"
-				File file = new File("novi.txt");
+				File file = new File("novi2.txt");
 				// Provjera da li postoji fajl
 				file.createNewFile();
 				if(file.exists()){
